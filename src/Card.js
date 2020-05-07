@@ -23,10 +23,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 280,
     minWidth: 100,
-    height: 470,
+    height: 350,
   },
   media: {
-    paddingTop: "50.25%", // 16:9
+    paddingTop: "5%", // 16:9
   },
   expand: {
     transform: "rotate(0deg)",
@@ -84,7 +84,7 @@ export default function MyCard() {
             <br></br>
             <br></br>
             <br></br>
-            Click the link icon below to see article
+            Click the link icon below to see document
           </Typography>
         </CardContent>
 

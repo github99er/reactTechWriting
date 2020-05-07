@@ -23,10 +23,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 280,
     minWidth: 100,
-    height: 470,
+    height: 350,
   },
   media: {
-    paddingTop: "50.25%", // 16:9
+    paddingTop: "3%", // 16:9
   },
   expand: {
     transform: "rotate(0deg)",
@@ -80,7 +80,7 @@ export default function MyCardThree() {
             component="p"
             style={{ backgroundColor: "#20232a", color: "#fff" }}
           >
-            Click the link icon below to see article
+            Click the link icon below to see document
           </Typography>
         </CardContent>
 
