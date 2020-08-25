@@ -73,7 +73,7 @@ class Navbar extends React.Component {
                     color: "white",
                   }}
                 >
-                  Projects
+                  Samples
                 </Button>
               </Link>
             </div>

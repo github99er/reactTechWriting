@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     height: 350,
   },
   media: {
-    paddingTop: "5%", // 16:9
+    paddingTop: "25%", // 16:9
   },
   expand: {
     transform: "rotate(0deg)",
@@ -58,7 +58,7 @@ export default function MyCard() {
         style={{ backgroundColor: "#20232a", color: "#fff" }}
       >
         <CardHeader
-          title="Utilizing SingularityNET's Reputation System to Prevent Scams"
+          title="XRP Ledger Invariant Checking"
           style={{ backgroundColor: "#20232a", color: "#fff" }}
         />
         <CardMedia
@@ -90,7 +90,7 @@ export default function MyCard() {
 
         <CardActions disableSpacing>
           <IconButton
-            href="https://blog.singularitynet.io/utilizing-singularitynets-reputation-system-to-prevent-scams-5c7da7020bc9"
+            href="https://xrpl.org/invariant-checking.html"
             target="_blank"
             aria-label="GitHub"
             style={{ backgroundColor: "#20232a", color: "#fff" }}
