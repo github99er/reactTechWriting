@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import MyResume from "./RMBASept.pdf";
+import MyResume from "./RMSept.pdf";
 
 export default function Resume() {
   return (
