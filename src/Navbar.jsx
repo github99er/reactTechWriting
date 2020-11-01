@@ -59,6 +59,23 @@ class Navbar extends React.Component {
                 </Button>
               </Link>
             </div>
+            <div className={this.props.classes.Projects}>
+              <Link to="/Code" style={{ textDecoration: "none" }}>
+                <Button
+                  size="small"
+                  variant="contained"
+                  color="default"
+                  startIcon={<WorkIcon />}
+                  style={{
+                    margin: "10px",
+                    backgroundColor: "#61dafb",
+                    color: "white",
+                  }}
+                >
+                  Coding Projects
+                </Button>
+              </Link>
+            </div>
 
             <div className={this.props.classes.Projects}>
               <Link to="/Projects" style={{ textDecoration: "none" }}>
@@ -73,7 +90,7 @@ class Navbar extends React.Component {
                     color: "white",
                   }}
                 >
-                  Samples
+                  Writing Samples
                 </Button>
               </Link>
             </div>

@@ -9,6 +9,7 @@ import Home from "./HomePage"; //redners out my home page info\
 import ResumePage from "./ResumePage";
 import ProjectPage from "./ProjectPage";
 import ContactPage from "./ContactPage";
+import codeProjects from "./codeProjects";
 import {
   BrowserRouter as Router,
   Route,
@@ -24,6 +25,7 @@ function App() {
         <Switch>
           <Route path={"/"} exact component={Home} />
           <Route path={"/Projects"} component={ProjectPage} />
+          <Route path={"/Code"} component={codeProjects} />
           <Route path={"/Resume"} component={ResumePage} />
           <Route path={"/Contact"} component={ContactPage} />
           <Route path={"/404"} component={Home} />
