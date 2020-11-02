@@ -19,7 +19,7 @@ import { GitHub } from "@material-ui/icons";
 import { AppBar, Toolbar, Button, Fab } from "@material-ui/core";
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
 import MyCard from "./cardCode1.js";
-import MyCardTwo from "./CardTwo";
+import MyCardTwo from "./cardCode2.js";
 import MyCardThree from "./CardThree";
 import MyCardFour from "./CardFour";
 import Grid from "@material-ui/core/Grid";
@@ -63,6 +63,11 @@ export default function SpacingGrid() {
       <Grid item xs={2}>
         <Paper>
           <MyCard />
+        </Paper>
+      </Grid>  
+      <Grid item xs={2}>
+        <Paper>
+          <MyCardTwo />
         </Paper>
       </Grid>  
     </Grid>
