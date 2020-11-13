@@ -70,6 +70,7 @@ class Navbar extends React.Component {
                     margin: "10px",
                     backgroundColor: "#61dafb",
                     color: "white",
+                    width: "170px"
                   }}
                 >
                   Coding Projects
@@ -88,6 +89,7 @@ class Navbar extends React.Component {
                     margin: "10px",
                     backgroundColor: "#61dafb",
                     color: "white",
+                    width: "170px"
                   }}
                 >
                   Writing Samples

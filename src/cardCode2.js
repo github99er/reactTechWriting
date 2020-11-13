@@ -58,7 +58,7 @@ export default function MyCard() {
         style={{ backgroundColor: "#20232a", color: "#fff" }}
       >
         <CardHeader
-          title="Mock Yield Farming (Cryptocurrency)"
+          title="GIF Maze & Pathfinder"
           style={{ backgroundColor: "#20232a", color: "#fff" }}
         />
         <CardMedia
@@ -90,7 +90,7 @@ export default function MyCard() {
 
         <CardActions disableSpacing>
           <IconButton
-            href="https://clever-kirch-4d0064.netlify.app/"
+            href="https://gif-finder-c80b17.netlify.app/"
             target="_blank"
             aria-label="GitHub"
             style={{ backgroundColor: "#20232a", color: "#fff" }}
