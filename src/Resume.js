@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import MyResume from "./Ryan_Murphy_Resume_Google.pdf";
+import MyResume from "./Ryan_Murphy_Resume.pdf";
 
 export default function Resume() {
   return (
