@@ -126,6 +126,24 @@ class Navbar extends React.Component {
                   color: "white",
                 }}
                 target="_blank"
+                href="https://ryanmurphyzzz.medium.com/"
+              >
+                Medium
+              </Button>
+            </div>
+            
+            <div className={this.props.classes.LinkedInIcon}>
+              <Button
+                size="small"
+                variant="contained"
+                color="default"
+                startIcon={<LinkedInIcon />}
+                style={{
+                  margin: "10px",
+                  backgroundColor: "#61dafb",
+                  color: "white",
+                }}
+                target="_blank"
                 href="https://www.linkedin.com/in/ryan-murphy-942277107/"
               >
                 LinkedIn
